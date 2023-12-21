@@ -1,0 +1,42 @@
+body {
+  word-spacing: 3px;
+  font-family: "Lato", sans-serif;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote__header {
+  font-size: 4rem;
+}
+
+.quote__text {
+  font-size: 2rem;
+}
+
+.quote__btn {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  outline: none;
+  padding: 1.5rem 3rem;
+  transition: all 0.25s;
+}
+
+.quote__btn:hover {
+  background-color: rgba(0, 128, 0, 0.763);
+}
+
+.quote__output {
+  font-size: 2rem;
+}
+
+.quote__author {
+  font-size: 2rem;
+}

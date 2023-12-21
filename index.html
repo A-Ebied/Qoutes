@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quote App</title>
+  </head>
+  <body>
+    <div class="quote mt-5 vh-100 position-relative">
+      <div class="quote__display">
+        <h1 class="quote__header mb-5">Quote of the Day</h1>
+        <p class="quote__text">
+          Press the button below to recieve a random quote!
+        </p>
+        <button onclick="randomQuote();" class="quote__btn">New Quote</button>
+        <p id="quoteOutput" class="quote__output"></p>
+        <p id="authorOutput" class="quote__author"></p>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
